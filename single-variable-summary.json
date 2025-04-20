@@ -1,0 +1,14 @@
+{
+  "description": "Summary of Year including range, central tendency, and missing values",
+  "operations": "summarise, n_distinct, mean, median, sd, quantile, sum(is.na)",
+  "summary": {
+    "unique_count": 8,
+    "min": 105,
+    "max": 112,
+    "mean": 108.3491,
+    "median": 108,
+    "sd": 2.178,
+    "quantiles": [107, 110],
+    "missing_count": 0
+  }
+}

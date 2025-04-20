@@ -1,0 +1,85 @@
+{
+  "description": "Yearly participation trends with total applicants, event count, and growth rate, including missing values",
+  "operations": "group_by, summarise, sum, mean, n, lag, is.na",
+  "summary": [
+    {
+      "Year": 105,
+      "total_applicants": 5081,
+      "event_count": 12,
+      "avg_applicants_per_event": 423.4167,
+      "missing_year": 0,
+      "missing_series": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Year": 106,
+      "total_applicants": 8430,
+      "event_count": 12,
+      "avg_applicants_per_event": 702.5,
+      "missing_year": 0,
+      "missing_series": 0,
+      "missing_applicant_count": 0,
+      "growth_rate": 65.9122
+    },
+    {
+      "Year": 107,
+      "total_applicants": 10542,
+      "event_count": 17,
+      "avg_applicants_per_event": 620.1176,
+      "missing_year": 0,
+      "missing_series": 0,
+      "missing_applicant_count": 0,
+      "growth_rate": 25.0534
+    },
+    {
+      "Year": 108,
+      "total_applicants": 10753,
+      "event_count": 18,
+      "avg_applicants_per_event": 597.3889,
+      "missing_year": 0,
+      "missing_series": 0,
+      "missing_applicant_count": 0,
+      "growth_rate": 2.0015
+    },
+    {
+      "Year": 109,
+      "total_applicants": 8890,
+      "event_count": 13,
+      "avg_applicants_per_event": 683.8462,
+      "missing_year": 0,
+      "missing_series": 0,
+      "missing_applicant_count": 0,
+      "growth_rate": -17.3254
+    },
+    {
+      "Year": 110,
+      "total_applicants": 7669,
+      "event_count": 13,
+      "avg_applicants_per_event": 589.9231,
+      "missing_year": 0,
+      "missing_series": 0,
+      "missing_applicant_count": 0,
+      "growth_rate": -13.7345
+    },
+    {
+      "Year": 111,
+      "total_applicants": 8360,
+      "event_count": 9,
+      "avg_applicants_per_event": 928.8889,
+      "missing_year": 0,
+      "missing_series": 0,
+      "missing_applicant_count": 0,
+      "growth_rate": 9.0103
+    },
+    {
+      "Year": 112,
+      "total_applicants": 11980,
+      "event_count": 12,
+      "avg_applicants_per_event": 998.3333,
+      "missing_year": 0,
+      "missing_series": 0,
+      "missing_applicant_count": 0,
+      "growth_rate": 43.3014
+    }
+  ]
+}

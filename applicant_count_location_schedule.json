@@ -1,0 +1,336 @@
+{
+  "description": "Total and average applicant count by Location and Schedule, with event count and missing values",
+  "operations": "group_by, summarise, sum, mean, n, is.na",
+  "summary": [
+    {
+      "Location": "南投",
+      "Schedule": "2日",
+      "total_applicants": 7028,
+      "avg_applicants": 878.5,
+      "event_count": 8,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "嘉義",
+      "Schedule": "1日",
+      "total_applicants": 2805,
+      "avg_applicants": 561,
+      "event_count": 5,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "嘉義",
+      "Schedule": "2日",
+      "total_applicants": 825,
+      "avg_applicants": 825,
+      "event_count": 1,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "嘉義",
+      "Schedule": "半日",
+      "total_applicants": 918,
+      "avg_applicants": 459,
+      "event_count": 2,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "宜蘭",
+      "Schedule": "1日",
+      "total_applicants": 4366,
+      "avg_applicants": 727.6667,
+      "event_count": 6,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "宜蘭",
+      "Schedule": "2日",
+      "total_applicants": 4129,
+      "avg_applicants": 825.8,
+      "event_count": 5,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "宜蘭",
+      "Schedule": "半日",
+      "total_applicants": 187,
+      "avg_applicants": 187,
+      "event_count": 1,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "屏東",
+      "Schedule": "1日",
+      "total_applicants": 185,
+      "avg_applicants": 185,
+      "event_count": 1,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "屏東",
+      "Schedule": "2日",
+      "total_applicants": 1813,
+      "avg_applicants": 604.3333,
+      "event_count": 3,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "彰化",
+      "Schedule": "1日",
+      "total_applicants": 773,
+      "avg_applicants": 773,
+      "event_count": 1,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "彰化",
+      "Schedule": "半日",
+      "total_applicants": 232,
+      "avg_applicants": 232,
+      "event_count": 1,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "新北",
+      "Schedule": "1日",
+      "total_applicants": 3208,
+      "avg_applicants": 802,
+      "event_count": 4,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "新北",
+      "Schedule": "半日",
+      "total_applicants": 1776,
+      "avg_applicants": 592,
+      "event_count": 3,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "新竹",
+      "Schedule": "1日",
+      "total_applicants": 1809,
+      "avg_applicants": 904.5,
+      "event_count": 2,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "新竹",
+      "Schedule": "2日",
+      "total_applicants": 412,
+      "avg_applicants": 412,
+      "event_count": 1,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "新竹",
+      "Schedule": "半日",
+      "total_applicants": 791,
+      "avg_applicants": 395.5,
+      "event_count": 2,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "桃園",
+      "Schedule": "1日",
+      "total_applicants": 1790,
+      "avg_applicants": 596.6667,
+      "event_count": 3,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "桃園",
+      "Schedule": "半日",
+      "total_applicants": 588,
+      "avg_applicants": 588,
+      "event_count": 1,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "臺中",
+      "Schedule": "1日",
+      "total_applicants": 6283,
+      "avg_applicants": 897.5714,
+      "event_count": 7,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "臺中",
+      "Schedule": "半日",
+      "total_applicants": 3741,
+      "avg_applicants": 623.5,
+      "event_count": 6,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "臺北",
+      "Schedule": "1日",
+      "total_applicants": 2211,
+      "avg_applicants": 737,
+      "event_count": 3,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "臺北",
+      "Schedule": "半日",
+      "total_applicants": 3139,
+      "avg_applicants": 784.75,
+      "event_count": 4,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "臺南",
+      "Schedule": "1日",
+      "total_applicants": 3955,
+      "avg_applicants": 659.1667,
+      "event_count": 6,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "臺南",
+      "Schedule": "2日",
+      "total_applicants": 882,
+      "avg_applicants": 441,
+      "event_count": 2,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "臺東",
+      "Schedule": "2日",
+      "total_applicants": 2986,
+      "avg_applicants": 597.2,
+      "event_count": 5,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "花蓮",
+      "Schedule": "2日",
+      "total_applicants": 2192,
+      "avg_applicants": 548,
+      "event_count": 4,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "苗栗",
+      "Schedule": "1日",
+      "total_applicants": 4295,
+      "avg_applicants": 859,
+      "event_count": 5,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "苗栗",
+      "Schedule": "2日",
+      "total_applicants": 1177,
+      "avg_applicants": 588.5,
+      "event_count": 2,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "苗栗/新竹",
+      "Schedule": "1日",
+      "total_applicants": 617,
+      "avg_applicants": 617,
+      "event_count": 1,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "雲林",
+      "Schedule": "1日",
+      "total_applicants": 1398,
+      "avg_applicants": 699,
+      "event_count": 2,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "高雄",
+      "Schedule": "1日",
+      "total_applicants": 4296,
+      "avg_applicants": 613.7143,
+      "event_count": 7,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "高雄",
+      "Schedule": "2日",
+      "total_applicants": 532,
+      "avg_applicants": 532,
+      "event_count": 1,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    },
+    {
+      "Location": "高雄",
+      "Schedule": "半日",
+      "total_applicants": 366,
+      "avg_applicants": 366,
+      "event_count": 1,
+      "missing_location": 0,
+      "missing_schedule": 0,
+      "missing_applicant_count": 0
+    }
+  ]
+}
